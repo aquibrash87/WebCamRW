@@ -1,4 +1,0 @@
-D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/ALL_BUILD.dir
-D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CopyFolder.dir
-D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/ZERO_CHECK.dir
-D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/VideoInputDetector.dir
