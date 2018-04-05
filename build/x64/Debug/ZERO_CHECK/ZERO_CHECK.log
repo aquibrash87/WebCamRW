@@ -1,0 +1,10 @@
+﻿Der Buildvorgang wurde am 05.04.2018 11:56:43 gestartet.
+     1>Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\ZERO_CHECK.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/generate.stamp is up-to-date.
+     1>Die Erstellung des Projekts "D:\Implementation\opencvWorkplace\VideoInputDetector\build\ZERO_CHECK.vcxproj" ist abgeschlossen, Rebuild Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:00.52

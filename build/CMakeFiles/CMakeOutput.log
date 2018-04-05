@@ -1,0 +1,249 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R)-Buildmodul, Version 12.0.21005.1
+[Microsoft .NET Framework, Version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 05.04.2018 11:22:58 gestartet.
+Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\3.1.0\CompilerIdC\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "Debug\" wird erstellt.
+  Das Verzeichnis "Debug\CompilerIdC.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "Debug\CompilerIdC.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\3.1.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Die Datei "Debug\CompilerIdC.tlog\unsuccessfulbuild" wird gelîscht.
+  Aktualisieren des Timestamps von "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Die Erstellung von Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\3.1.0\CompilerIdC\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefÅhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.98
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/3.1.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R)-Buildmodul, Version 12.0.21005.1
+[Microsoft .NET Framework, Version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 05.04.2018 11:23:00 gestartet.
+Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\3.1.0\CompilerIdCXX\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "Debug\" wird erstellt.
+  Das Verzeichnis "Debug\CompilerIdCXX.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\3.1.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Die Datei "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" wird gelîscht.
+  Aktualisieren des Timestamps von "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Die Erstellung von Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\3.1.0\CompilerIdCXX\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefÅhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.59
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/3.1.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3781012815.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R)-Buildmodul, Version 12.0.21005.1
+[Microsoft .NET Framework, Version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 05.04.2018 11:23:01 gestartet.
+Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\cmTryCompileExec3781012815.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTryCompileExec3781012815.dir\Debug\" wird erstellt.
+  Das Verzeichnis "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTryCompileExec3781012815.dir\Debug\cmTryCom.FC698755.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTryCompileExec3781012815.dir\Debug\cmTryCom.FC698755.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3781012815.dir\Debug\\" /Fd"cmTryCompileExec3781012815.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++-Optimierungscompiler Version 18.00.21005.1 fÅr x64
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3781012815.dir\Debug\\" /Fd"cmTryCompileExec3781012815.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3781012815.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3781012815.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3781012815.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3781012815.dir\Debug\testCCompiler.obj
+  cmTryCompileExec3781012815.vcxproj -> D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3781012815.exe
+FinalizeBuildStatus:
+  Die Datei "cmTryCompileExec3781012815.dir\Debug\cmTryCom.FC698755.tlog\unsuccessfulbuild" wird gelîscht.
+  Aktualisieren des Timestamps von "cmTryCompileExec3781012815.dir\Debug\cmTryCom.FC698755.tlog\cmTryCompileExec3781012815.lastbuildstate".
+Die Erstellung von Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\cmTryCompileExec3781012815.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefÅhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.60
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec4041633645.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R)-Buildmodul, Version 12.0.21005.1
+[Microsoft .NET Framework, Version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 05.04.2018 11:23:02 gestartet.
+Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\cmTryCompileExec4041633645.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTryCompileExec4041633645.dir\Debug\" wird erstellt.
+  Das Verzeichnis "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTryCompileExec4041633645.dir\Debug\cmTryCom.E3E99E32.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTryCompileExec4041633645.dir\Debug\cmTryCom.E3E99E32.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4041633645.dir\Debug\\" /Fd"cmTryCompileExec4041633645.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++-Optimierungscompiler Version 18.00.21005.1 fÅr x64
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4041633645.dir\Debug\\" /Fd"cmTryCompileExec4041633645.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4041633645.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4041633645.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4041633645.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec4041633645.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec4041633645.vcxproj -> D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4041633645.exe
+FinalizeBuildStatus:
+  Die Datei "cmTryCompileExec4041633645.dir\Debug\cmTryCom.E3E99E32.tlog\unsuccessfulbuild" wird gelîscht.
+  Aktualisieren des Timestamps von "cmTryCompileExec4041633645.dir\Debug\cmTryCom.E3E99E32.tlog\cmTryCompileExec4041633645.lastbuildstate".
+Die Erstellung von Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\cmTryCompileExec4041633645.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefÅhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.61
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1456851501.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R)-Buildmodul, Version 12.0.21005.1
+[Microsoft .NET Framework, Version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 05.04.2018 11:23:03 gestartet.
+Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\cmTryCompileExec1456851501.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTryCompileExec1456851501.dir\Debug\" wird erstellt.
+  Das Verzeichnis "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTryCompileExec1456851501.dir\Debug\cmTryCom.5623BA27.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTryCompileExec1456851501.dir\Debug\cmTryCom.5623BA27.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1456851501.dir\Debug\\" /Fd"cmTryCompileExec1456851501.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++-Optimierungscompiler Version 18.00.21005.1 fÅr x64
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1456851501.dir\Debug\\" /Fd"cmTryCompileExec1456851501.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1456851501.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1456851501.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1456851501.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec1456851501.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec1456851501.vcxproj -> D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1456851501.exe
+FinalizeBuildStatus:
+  Die Datei "cmTryCompileExec1456851501.dir\Debug\cmTryCom.5623BA27.tlog\unsuccessfulbuild" wird gelîscht.
+  Aktualisieren des Timestamps von "cmTryCompileExec1456851501.dir\Debug\cmTryCom.5623BA27.tlog\cmTryCompileExec1456851501.lastbuildstate".
+Die Erstellung von Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\cmTryCompileExec1456851501.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefÅhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.63
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec936796038.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R)-Buildmodul, Version 12.0.21005.1
+[Microsoft .NET Framework, Version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 05.04.2018 11:23:04 gestartet.
+Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\cmTryCompileExec936796038.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTryCompileExec936796038.dir\Debug\" wird erstellt.
+  Das Verzeichnis "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTryCompileExec936796038.dir\Debug\cmTryCom.18C02C51.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTryCompileExec936796038.dir\Debug\cmTryCom.18C02C51.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec936796038.dir\Debug\\" /Fd"cmTryCompileExec936796038.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++-Optimierungscompiler Version 18.00.21005.1 fÅr x64
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec936796038.dir\Debug\\" /Fd"cmTryCompileExec936796038.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec936796038.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec936796038.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Implementation/opencvWorkplace/VideoInputDetector/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec936796038.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec936796038.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec936796038.vcxproj -> D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec936796038.exe
+FinalizeBuildStatus:
+  Die Datei "cmTryCompileExec936796038.dir\Debug\cmTryCom.18C02C51.tlog\unsuccessfulbuild" wird gelîscht.
+  Aktualisieren des Timestamps von "cmTryCompileExec936796038.dir\Debug\cmTryCom.18C02C51.tlog\cmTryCompileExec936796038.lastbuildstate".
+Die Erstellung von Projekt "D:\Implementation\opencvWorkplace\VideoInputDetector\build\CMakeFiles\CMakeTmp\cmTryCompileExec936796038.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefÅhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.62
+
+
