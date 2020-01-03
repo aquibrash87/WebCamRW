@@ -1,18 +1,19 @@
 #include <stdio.h>
 #include <iostream>
+#include <opencv2/opencv.hpp>
 #include <opencv2/core/core.hpp>
-#include <opencv2/features2d/features2d.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
-#include <opencv2/nonfree/nonfree.hpp>
-#include <fstream>
-#include <opencv2\core\core.hpp>
-#include <opencv2\imgproc\imgproc.hpp>
-#include <opencv2\highgui\highgui.hpp>
-#include <opencv2\features2d\features2d.hpp>
-#include "opencv2/imgproc/types_c.h"
-#include "opencv2/opencv.hpp"
+#include <opencv2/features2d/features2d.hpp>
+#include <opencv2/features2d.hpp>
+#include <opencv2/xfeatures2d.hpp>
+#include <opencv2/xfeatures2d/nonfree.hpp>
+#include <opencv2/calib3d.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/core/utility.hpp>
+
 #include <stdio.h>
+#include <opencv2/highgui.hpp>
 
 #include <iostream>
 #include <fstream>
@@ -60,17 +61,17 @@ int main(int argc, char** argv)
 
 	if (WebCamFlag)
 
-		cap.open(0);	// Accesses webcamera 
+		cap.open(3);	// Accesses webcamera 
 
 	else
 		cap.open("scaleRotation.avi");//backSide //scaleRotation //illuminationVariation
 									  // Utilizes video file in the same folder as source code, 
-	if (!cap.isOpened())  // if not success, exit program
+	/*if (!cap.isOpened())  // if not success, exit program
 	{
 		cout << "Cannot open the video file" << endl;
 
 		return -1;
-	}
+	}6644
 
 	// writing Video file
 
@@ -94,16 +95,16 @@ int main(int argc, char** argv)
 	}
 
 
-
+*/
 
 	double fps = cap.get(CV_CAP_PROP_FPS); //get the frames per seconds of the video
 
 	cout << "Frame per seconds : " << fps << endl;
 
-	FeatureDetector* detector = NULL;
+	//FeatureDetector* detector = NULL;
 	// Choose between the detector by commenting out the other
 	
-		detector = new ORB(OrbFeatures, OrbScaleFac, OrbLevels, OrbEdgeThresh, 0, 2, ORB::HARRIS_SCORE, OrbPatchSize);
+		//detector = new ORB(OrbFeatures, OrbScaleFac, OrbLevels, OrbEdgeThresh, 0, 2, ORB::HARRIS_SCORE, OrbPatchSize);
 
 	
 
@@ -119,19 +120,19 @@ int main(int argc, char** argv)
 		GaussianBlur(image, dst, Size(i, i), 1.6, 1.6);
 		}
 		*/
-		detector->detect(image, keypoints);// features detected and saved in keypoints vector
+		//detector->detect(image, keypoints);// features detected and saved in keypoints vector
 
 										   //myBlobDetector.detect(dst, myBlobs); // detecting blobs
 
-		cv::drawKeypoints(image, keypoints, showkeypoints);// draws keypoints on image and stores result in matric showkeypoints
+		//cv::drawKeypoints(image, keypoints, showkeypoints);// draws keypoints on image and stores result in matric showkeypoints
 
 														   //cv::drawKeypoints(image, myBlobs, showkeypoints);// draws keypoints on image and stores result in matric showkeypoints
 
-		imshow("Detected Features", showkeypoints);
+		imshow("Visualizer", image);
 
 
 		
-		outputVideo << showkeypoints;
+		//outputVideo << image;
 				if (waitKey(30) == 27) //wait for 'esc' key press for 30 ms. If 'esc' key is pressed, break loop
 				{
 					break;
